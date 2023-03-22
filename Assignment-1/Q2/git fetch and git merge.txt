@@ -1,0 +1,16 @@
+Command to add remote to git
+Syntax:
+    $ git remote add <remote_name> <remote_url>
+Command to push from git to github remote
+Syntax:
+    $ git push <remote_name> <branch_name>
+Command to fetch from github
+Syntax:
+    $ git fetch <remote_name> <branch_name>
+Command to merge branch from git and github
+Syntax:
+    $ git merge <branch_name> <remote_name>/<branch_name>
+Git fetch:
+    The "git fetch" command is used to pull the updates from remote-tracking branches.
+Git merge:
+    The "git merge" command is used to make both branches updated with latest commits.

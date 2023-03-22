@@ -1,0 +1,14 @@
+Containers
+* A container is a runnable instance of an image.
+Image
+* A container image is a static file with executable code that can create a container on a computing system. 
+* run Command is used to run a container
+* command used to run a docker image 
+Syntax:
+    docker run [docker_image]
+* command used to run a container
+Syntax:
+        docker container run [docker_image]
+* command used to run a container in interactive mode
+Syntax:
+    docker container run -it [docker_image]

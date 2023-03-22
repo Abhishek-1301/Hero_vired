@@ -1,0 +1,4 @@
+*The awk command is used for text processing in Linux.
+*Syntax:
+    awk options 'selection _criteria {action }' input-file > output-file
+*awk command is used to filter the data in files.

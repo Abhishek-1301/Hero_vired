@@ -1,0 +1,18 @@
+git stash
+-Git command used to uncommit changes and save a copy of the change in local directory.
+-It uses stack data structure which follows LIFO(Last In First Out) order.
+-Following are stash commands:
+$ git stash
+* Used to stash the change.
+$ git stash list
+* List out all the stashes.
+$ git stash show
+* Shows the changes made.
+$ git stash apply [--index]
+* Apply the stash with given index.
+$ git stash pop [--index]
+* Apply the top stash if index is not specified.
+$ git stash drop
+* Drops a stash
+$ git stash clear
+*Clears the stash

@@ -1,0 +1,11 @@
+* git fetch command is used to fetch the commits and check the remote branch is ahead or not.
+* git is a combination of git fetch and git merge i.e., git pull = git fetch + git merge.
+* git fetch only checks the data but does not make the branches updated with latest commits.
+* git merge commit should be run to get the branches updated after the git fetch command.
+* git merge command itself fetches the data and merges the branches in both local and remote repositories.
+* Syntax to run git fetch:
+    $ git fetch <remote> <branch>
+* Synatx to run git merge:
+    $ git merge <remote>/<branch>
+* Synatx to run git pull:
+    $ git pull <remote> <branch>
